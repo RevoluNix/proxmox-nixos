@@ -22,6 +22,7 @@ let
     termreadline = callPackage ./perl-modules/termreadline { };
     testharness = callPackage ./perl-modules/testharness { };
     uuid = callPackage ./perl-modules/uuid { };
+    swtpm-etc = callPackage ./swtpm-etc { };
 
     extjs = callPackage ./extjs { };
     fonts-font-logos = callPackage ./fonts-font-logos { };
